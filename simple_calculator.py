@@ -27,13 +27,19 @@ def calculate_numbers():
         result = num1 + num2
         print("Result: %d" %result)
     elif(selected_operator == "-"):
-        print("Subtract")
+        result = num1 - num2
+        print("Result: %d" %result)
     elif(selected_operator == "/"):
-        print("Divide")
+        result = num1 / num2
+        print("Result: %d" %result)
     elif(selected_operator == "*"):
-        print("Multiply")
-    elif(selected_operator == "*"):
-        print("Reminder")
+        result = num1 * num2
+        print("Result: %d" %result)
+    elif(selected_operator == "%"):
+        result = num1 % num2
+        print("Result: %d" %result)
+    else:
+        print("Enter a valid number.")
 
     
 
