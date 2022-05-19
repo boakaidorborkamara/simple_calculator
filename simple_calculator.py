@@ -17,11 +17,23 @@ def calculate_numbers():
 
 
     #get second number
-    num2 = int(input("Enter first number \n"))
+    num2 = int(input("Enter second number \n"))
 
 
     #execute operations base on selected operator
-    
+    result = ""
+
+    if(selected_operator == "+"):
+        result = num1 + num2
+        print("Result: %d" %result)
+    elif(selected_operator == "-"):
+        print("Subtract")
+    elif(selected_operator == "/"):
+        print("Divide")
+    elif(selected_operator == "*"):
+        print("Multiply")
+    elif(selected_operator == "*"):
+        print("Reminder")
 
     
 
