@@ -31,7 +31,7 @@ def calculate_numbers():
         print("Result: %d" %result)
     elif(selected_operator == "/"):
         result = num1 / num2
-        print("Result: %d" %result)
+        print("Result: %f" %result)
     elif(selected_operator == "*"):
         result = num1 * num2
         print("Result: %d" %result)
