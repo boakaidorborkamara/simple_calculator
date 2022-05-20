@@ -1,8 +1,13 @@
 def calculate_numbers():
 
     #get first numbers from user
-    num1 = int(input("Enter first number \n"))
+    num1 = input("Enter first number \n")
+    while(not num1.isnumeric()):
+        num1 = input("Enter first number \n")
 
+    # explicitly type cast num1 
+    num1 = int(num1)
+    # print(type(num1))
 
     #acceptable operators
     operators = ["+", "-", "/", "*", "%"]
