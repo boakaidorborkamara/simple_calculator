@@ -1,2 +1,2 @@
 # simple_calculator
-A simple calculator developed with python.
+A simple CLI calculator developed with python.
